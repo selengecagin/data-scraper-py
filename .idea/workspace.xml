@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20a450b8-95d6-45c9-903d-6bfc389d95f6" name="Changes" comment="Add Selenium script to perform a Google search">
+    <list default="true" id="20a450b8-95d6-45c9-903d-6bfc389d95f6" name="Changes" comment="Print text of selected titles">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +100,23 @@
       <option name="project" value="LOCAL" />
       <updated>1723897275125</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Select h2 elements with class entry-title using Selenium">
+      <option name="closed" value="true" />
+      <created>1723897884099</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723897884099</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Print text of selected titles">
+      <option name="closed" value="true" />
+      <created>1723897918814</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723897918814</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,6 +132,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add Selenium script to perform a Google search" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Selenium script to perform a Google search" />
+    <MESSAGE value="Select h2 elements with class entry-title using Selenium" />
+    <MESSAGE value="Print text of selected titles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Print text of selected titles" />
   </component>
 </project>

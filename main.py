@@ -22,6 +22,8 @@ try:
     for title in titles:
         print(title.text)
 
+# Click the <a> button with class="et_pb_button et_pb_button_3 et_pb_bg_layout_light"
+    button = driver.find_element(By.CSS_SELECTOR, "a.et_pb_button.et_pb_button_3.et_pb_bg_layout_light").click()
 
 
 
