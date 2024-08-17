@@ -18,12 +18,16 @@ try:
     # select h2 tags with class entry-title
     titles = driver.find_elements(By.CSS_SELECTOR, "h2.entry-title")
 
-    # Print the titles
+    # get the href value of the first <a> element in the <h2> element
     for title in titles:
-        print(title.text)
+        #print the text of the a element
+        print(title.find_element(By.CSS_SELECTOR, "a").text)
+        #print the href value of the a element
+        print(title.find_element(By.CSS_SELECTOR, "a").get_attribute("href"))
 
-# Click the <a> button with class="et_pb_button et_pb_button_3 et_pb_bg_layout_light"
-    button = driver.find_element(By.CSS_SELECTOR, "a.et_pb_button.et_pb_button_3.et_pb_bg_layout_light").click()
+
+    #wait 2 seconds
+    time.sleep(2)
 
 
 

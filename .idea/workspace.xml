@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20a450b8-95d6-45c9-903d-6bfc389d95f6" name="Changes" comment="Print text of selected titles">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="20a450b8-95d6-45c9-903d-6bfc389d95f6" name="Changes" comment="Update try block for navigation to Code Maze latest posts">
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -116,7 +115,23 @@
       <option name="project" value="LOCAL" />
       <updated>1723897918814</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Click button with specified class using Selenium">
+      <option name="closed" value="true" />
+      <created>1723898253871</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723898253871</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update try block for navigation to Code Maze latest posts">
+      <option name="closed" value="true" />
+      <created>1723898336934</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1723898336934</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,6 +149,8 @@
     <MESSAGE value="Add Selenium script to perform a Google search" />
     <MESSAGE value="Select h2 elements with class entry-title using Selenium" />
     <MESSAGE value="Print text of selected titles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Print text of selected titles" />
+    <MESSAGE value="Click button with specified class using Selenium" />
+    <MESSAGE value="Update try block for navigation to Code Maze latest posts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update try block for navigation to Code Maze latest posts" />
   </component>
 </project>
