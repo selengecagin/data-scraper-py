@@ -10,28 +10,18 @@ driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install())
 
 try:
     # Navigate to Google Turkey
-    driver.get("https://www.google.com.tr")
+    driver.get("https://code-maze.com/")
 
     # Wait for the page to load
     time.sleep(3)
 
-    # Find the search box
-    search_box = driver.find_element(By.NAME, "q")
+    # select h2 tags with class entry-title
+    titles = driver.find_elements(By.CSS_SELECTOR, "h2.entry-title")
 
-    # Wait before typing
-    time.sleep(2)
 
-    # Type "Hello World!" in the search box
-    search_box.send_keys("Hello World!")
 
-    # Wait before pressing Enter
-    time.sleep(2)
 
-    # Press Enter to perform the search
-    search_box.send_keys(Keys.RETURN)
 
-    # Wait for the search results to load
-    time.sleep(5)
 
 finally:
     # Close the browser after a short delay to see the result
