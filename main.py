@@ -18,7 +18,9 @@ try:
     # select h2 tags with class entry-title
     titles = driver.find_elements(By.CSS_SELECTOR, "h2.entry-title")
 
-
+    # Print the titles
+    for title in titles:
+        print(title.text)
 
 
 
