@@ -9,8 +9,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
 
 try:
-    # Navigate to Google Turkey
-    driver.get("https://code-maze.com/")
+    # Navigate to
+    driver.get("https://code-maze.com/latest-posts-on-code-maze/")
 
     # Wait for the page to load
     time.sleep(3)
