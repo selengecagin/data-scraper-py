@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20a450b8-95d6-45c9-903d-6bfc389d95f6" name="Changes" comment="Print the total number of titles">
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="20a450b8-95d6-45c9-903d-6bfc389d95f6" name="Changes" comment="Append title and link to all_articles list">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724006876790</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Append title and link to all_articles list">
+      <option name="closed" value="true" />
+      <created>1724007506400</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1724007506400</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,6 +213,7 @@
     <MESSAGE value="Remove next page navigation and JSONL file saving logic" />
     <MESSAGE value="Extend all_titles list with scraped titles" />
     <MESSAGE value="Print the total number of titles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Print the total number of titles" />
+    <MESSAGE value="Append title and link to all_articles list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Append title and link to all_articles list" />
   </component>
 </project>

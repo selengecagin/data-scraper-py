@@ -2,53 +2,98 @@ import json
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
+from google.oauth2.service_account import Credentials
+from googleapiclient.discovery import build
+from googleapiclient.errors import HttpError
+
+# Google Sheets setup
+SCOPES = ['https://www.googleapis.com/auth/spreadsheets', 'https://www.googleapis.com/auth/drive']
+SERVICE_ACCOUNT_FILE = '/Users/selengecagin/Downloads/article-scraper-432919-837d8630e4b7.json'
+
+def create_sheet(service, title):
+    spreadsheet = {
+        'properties': {
+            'title': title
+        }
+    }
+    spreadsheet = service.spreadsheets().create(body=spreadsheet, fields='spreadsheetId').execute()
+    return spreadsheet.get('spreadsheetId')
+
+def update_sheet(service, spreadsheet_id, data):
+    body = {
+        'values': data
+    }
+    service.spreadsheets().values().update(
+        spreadsheetId=spreadsheet_id, range='A1',
+        valueInputOption='RAW', body=body).execute()
+
+def share_sheet(drive_service, spreadsheet_id, email_addresses):
+    for email in email_addresses:
+        permission = {
+            'type': 'user',
+            'role': 'writer',
+            'emailAddress': email
+        }
+        drive_service.permissions().create(
+            fileId=spreadsheet_id,
+            body=permission,
+            fields='id',
+            sendNotificationEmail=True
+        ).execute()
+    print(f"Sheet shared with: {', '.join(email_addresses)}")
 
 # Setup the WebDriver
 driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
 
 try:
-    # Open the JSONL file in append mode
-    with open("titles.jsonl", "a") as f:
-        all_articles  = []
-        for page in range(1, 21):  # Loop through the first 20 pages
-            # Navigate to the page
-            url = f"https://code-maze.com/latest-posts-on-code-maze/page/{page}/"
-            driver.get(url)
-            print(f"Navigating to: {url}")
+    # Google Sheets Authentication
+    creds = Credentials.from_service_account_file(SERVICE_ACCOUNT_FILE, scopes=SCOPES)
+    sheets_service = build('sheets', 'v4', credentials=creds)
+    drive_service = build('drive', 'v3', credentials=creds)
 
-            # Wait 2 seconds
-            time.sleep(2)
+    # Create a new Google Sheet
+    sheet_title = f"Code Maze Articles - {time.strftime('%Y-%m-%d %H:%M:%S')}"
+    spreadsheet_id = create_sheet(sheets_service, sheet_title)
+    print(f"Created new Google Sheet with ID: {spreadsheet_id}")
 
-            # Find <h2> elements with class "entry-title"
-            titles = driver.find_elements(By.CSS_SELECTOR, "h2.entry-title")
+    # Share the sheet with specified email addresses
+    email_addresses = ['alper.tunga@blazor.design', 'iclal.cetin.s.e@gmail.com', "doga.cetinkaya@yahoo.de", "seval.zeynep@gmail.com", "bzsezer1@gmail.com"]  # Add your desired email addresses here
+    share_sheet(drive_service, spreadsheet_id, email_addresses)
 
-            # Get the href value of the first <a> element in the <h2> element
-            for title in titles:
-                try:
-                    # Print the text of the <a> element
-                    title_text = title.find_element(By.CSS_SELECTOR, "a").text
-                    print(title_text)
+    # Prepare data for Google Sheets
+    sheet_data = [['Title', 'Link']]  # Header row
 
-                    # Print the href attribute of the <a> element
-                    title_link = title.find_element(By.CSS_SELECTOR, "a").get_attribute("href")
-                    print(title_link)
+    for page in range(3, 6):  # Loop through the first 20 pages
+        url = f"https://code-maze.com/latest-posts-on-code-maze/page/{page}/"
+        driver.get(url)
+        print(f"Navigating to: {url}")
+        time.sleep(2)
 
-                    all_articles.append({"title": title_text, "link": title_link})
+        titles = driver.find_elements(By.CSS_SELECTOR, "h2.entry-title")
 
-                    # Save the data to a JSONL file
-                    json_line = json.dumps({"title": title_text, "link": title_link})
-                    f.write(json_line + "\n")
-                except Exception as e:
-                    print(f"Error processing title: {e}")
+        for title in titles:
+            try:
+                title_text = title.find_element(By.CSS_SELECTOR, "a").text
+                title_link = title.find_element(By.CSS_SELECTOR, "a").get_attribute("href")
+                print(f"Title: {title_text}")
+                print(f"Link: {title_link}")
 
-        # Print the total number of titles
-        print(f"Total number of titles: {len(all_articles)}")
+                # Add data to sheet_data
+                sheet_data.append([title_text, title_link])
 
+                time.sleep(2)
+            except Exception as e:
+                print(f"Error processing title: {e}")
+
+    # Update Google Sheet with all data
+    update_sheet(sheets_service, spreadsheet_id, sheet_data)
+    print(f"Updated Google Sheet with {len(sheet_data) - 1} articles")
+
+except HttpError as error:
+    print(f"An error occurred: {error}")
 
 finally:
-    # Close the browser after a short delay to see the result
     time.sleep(5)
     driver.quit()
