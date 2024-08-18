@@ -28,7 +28,6 @@ try:
             # Add the titles to all_titles list
             all_titles.extend(titles)
 
-
             # Get the href value of the first <a> element in the <h2> element
             for title in titles:
                 try:
@@ -45,6 +44,9 @@ try:
                     f.write(json_line + "\n")
                 except Exception as e:
                     print(f"Error processing title: {e}")
+
+        # Print the total number of titles
+        print(f"Total number of titles: {len(all_titles)}")
 
 
 finally:
