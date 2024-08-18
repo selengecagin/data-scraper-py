@@ -372,3 +372,271 @@
 {"title": "How to Convert String to Char in C#", "link": "https://code-maze.com/csharp-how-to-convert-string-to-char/"}
 {"title": "Different Methods for Computing the Size of a Directory in C#", "link": "https://code-maze.com/csharp-different-methods-for-computing-the-size-of-a-directory/"}
 {"title": "Difference Between await and Task.Wait in C#", "link": "https://code-maze.com/csharp-difference-between-await-and-task-wait/"}
+{"title": "Introduction to the Wolverine Library in .NET", "link": "https://code-maze.com/dotnet-wolverine-library/"}
+{"title": "Implementing the Saga Pattern Using Rebus and RabbitMQ", "link": "https://code-maze.com/dotnet-implementing-the-saga-pattern-using-rebus-and-rabbitmq/"}
+{"title": "The LINQ Where Method in C#", "link": "https://code-maze.com/csharp-linq-where-method/"}
+{"title": "How to Test IServiceCollection Registrations in .NET", "link": "https://code-maze.com/dotnet-how-to-test-iservicecollection-registrations/"}
+{"title": "Abstract Factory Design Pattern in C#", "link": "https://code-maze.com/csharp-abstract-factory-design-pattern/"}
+{"title": "How to Read appsettings.json in a .NET Console Application", "link": "https://code-maze.com/how-to-read-appsettings-json-in-a-net-console-application/"}
+{"title": "Conditionally Add Middleware in ASP.NET Core", "link": "https://code-maze.com/aspnetcore-conditionally-add-middleware/"}
+{"title": "Run a Large Language Model(LLM) Like ChatGPT Locally With C#", "link": "https://code-maze.com/csharp-run-large-language-model-like-chatgpt-locally/"}
+{"title": "How to Cancel an HTTP Request on Leaving a Blazor Component", "link": "https://code-maze.com/blazor-cancel-http-request-on-leaving-a-component/"}
+{"title": "Multi-Source Data Integration With Strawberry Shake Subscriptions", "link": "https://code-maze.com/dotnetcore-multi-source-data-integration-with-strawberry-shake-subscriptions/"}
+{"title": "Using EF Core Interceptors in .NET", "link": "https://code-maze.com/efcore-interceptors/"}
+{"title": "Improve Entity Framework Core Performance with Complex Types", "link": "https://code-maze.com/efcore-improve-performance-with-complex-types/"}
+{"title": "Bridge Design Pattern in C#", "link": "https://code-maze.com/csharp-bridge-design-pattern/"}
+{"title": "Multitenancy in .NET With Orchard Core", "link": "https://code-maze.com/dotnet-multitenancy-with-orchard-core/"}
+{"title": "What are the Differences Between Onion Architecture and Clean Architecture in .NET?", "link": "https://code-maze.com/dotnet-differences-between-onion-architecture-and-clean-architecture/"}
+{"title": "Template Method Design Pattern in C#", "link": "https://code-maze.com/csharp-template-method-design-pattern/"}
+{"title": "How to Convert a Stream to a File in C#", "link": "https://code-maze.com/csharp-convert-a-stream-to-a-file/"}
+{"title": "Generate Images Using OpenAI in an ASP.NET Core Application", "link": "https://code-maze.com/aspnetcore-generate-images-using-openai/"}
+{"title": "How to Find All the Positions of a Substring in Another String in C#", "link": "https://code-maze.com/csharp-find-all-the-positions-of-substring-in-another-string/"}
+{"title": "Local Functions vs Lambda Expressions in C#", "link": "https://code-maze.com/csharp-local-function-lambda-expressions/"}
+{"title": "Proxy Design Pattern in C#", "link": "https://code-maze.com/csharp-proxy-design-pattern/"}
+{"title": "Working With Semaphore Class in C# and Best Practices", "link": "https://code-maze.com/semaphore-introduction-csharp/"}
+{"title": "How to Ignore a Property in AutoMapper", "link": "https://code-maze.com/csharp-how-to-ignore-a-property-in-automapper/"}
+{"title": "Find Differences Between Collections With the LINQ Except Method in C#", "link": "https://code-maze.com/csharp-using-the-except-method-in-linq/"}
+{"title": "Weak Events in C#", "link": "https://code-maze.com/csharp-weak-events/"}
+{"title": "How to Serialize a PascalCase JSON.NET JObject to camelCase", "link": "https://code-maze.com/dotnet-how-to-serialize-a-pascalcase-json-net-jobject-to-camelcase/"}
+{"title": "How to Mock IConfiguration.GetValue in ASP.NET Core", "link": "https://code-maze.com/aspnetcore-mock-iconfiguration-getvalue/"}
+{"title": "Getting Started With EasyCaching in ASP.NET Core", "link": "https://code-maze.com/aspnetcore-easycaching/"}
+{"title": "What Does the null! Statement Do?", "link": "https://code-maze.com/csharp-null-statement/"}
+{"title": "Flattening Nested Collections in C#", "link": "https://code-maze.com/csharp-flattening-nested-collections/"}
+{"title": "Differences Between Span and Memory in C#", "link": "https://code-maze.com/csharp-differences-between-span-and-memory/"}
+{"title": "Retrying Failed HttpClient Requests in .NET Using Polly", "link": "https://code-maze.com/retrying-failed-httpclient-requests-dotnet-polly/"}
+{"title": "Bouncy Castle Cryptography Library for .NET", "link": "https://code-maze.com/csharp-bouncy-castle-cryptography/"}
+{"title": "Embedded Resources in .NET", "link": "https://code-maze.com/dotnet-embedded-resources/"}
+{"title": "How to Set the Exit Code for a Console Application in .NET", "link": "https://code-maze.com/dotnet-how-to-set-the-exit-code-for-a-console-application/"}
+{"title": "How to Use FakeLogger to Test Logging Code in .NET", "link": "https://code-maze.com/dotnet-how-to-use-fakelogger/"}
+{"title": "How to Properly Set Connection Strings in ASP.NET Core", "link": "https://code-maze.com/aspnetcore-how-to-properly-set-connection-strings/"}
+{"title": "Adding a Custom Header Parameter to All API Endpoints in Swagger", "link": "https://code-maze.com/aspnetcore-adding-a-custom-header-parameter-to-all-api-endpoints-in-swagger/"}
+{"title": "How to Use the LINQ ToDictionary Method in C#", "link": "https://code-maze.com/csharp-linq-todictionary-method/"}
+{"title": "Comparing ExecuteAsync() and StartAsync() Methods from the BackgroundService Class in .NET", "link": "https://code-maze.com/dotnet-comparing-executeasync-and-startasync-methods-from-the-backgroundservice-class/"}
+{"title": "How to Print a 2D Array to the Console in C#", "link": "https://code-maze.com/csharp-print-2d-array-to-the-console/"}
+{"title": "Lookup in C#", "link": "https://code-maze.com/csharp-lookup/"}
+{"title": "Modular Monolith Architecture In .NET", "link": "https://code-maze.com/dotnet-modular-monolith/"}
+{"title": "Using Delegating Handlers to Extend HttpClient in ASP.NET Core", "link": "https://code-maze.com/aspnetcore-using-delegating-handlers-to-extend-httpclient/"}
+{"title": "How to Compare Two Files in C#", "link": "https://code-maze.com/csharp-compare-two-files/"}
+{"title": "How to Filter a List Based on Another List In C#", "link": "https://code-maze.com/csharp-filter-a-list-based-on-another-list/"}
+{"title": "Using Source Generators to Validate IOptions in ASP.NET Core", "link": "https://code-maze.com/aspnetcore-using-source-generators-to-validate-ioptions/"}
+{"title": "Using the Result Pattern in .NET Web API", "link": "https://code-maze.com/aspnetcore-result-pattern/"}
+{"title": "Generate QR Codes With QRCoder in .NET", "link": "https://code-maze.com/aspnetcore-generate-qr-codes-with-qrcoder/"}
+{"title": "Fastest Ways to Perform Base 10 Conversions in C#", "link": "https://code-maze.com/csharp-fastest-ways-to-perform-base-10-conversions/"}
+{"title": "Introduction to the StronglyTypedId Package in .NET", "link": "https://code-maze.com/dotnet-introduction-to-stronglytypedid-package/"}
+{"title": "How to Set Global Default JSON Serialization Options in .NET", "link": "https://code-maze.com/aspnetcore-set-global-default-json-serialization-options/"}
+{"title": "View-Based Authorization in ASP.NET Core", "link": "https://code-maze.com/aspnetcore-view-based-authorization/"}
+{"title": "How to Generate a Random Color Name in C#", "link": "https://code-maze.com/csharp-generate-a-random-color-name/"}
+{"title": "How to Call an Action From Another Controller in ASP.NET Core", "link": "https://code-maze.com/aspnetcore-call-an-action-from-another-controller/"}
+{"title": "Count the Number of Vowels in a String in C#", "link": "https://code-maze.com/csharp-count-the-number-of-vowels-in-a-string/"}
+{"title": "How to Compare Two Dictionaries in C#", "link": "https://code-maze.com/csharp-compare-two-dictionaries/"}
+{"title": "How Does the Default ASP.NET Core Identity Password Hasher Work?", "link": "https://code-maze.com/aspnetcore-default-asp-net-core-identity-password-hasher/"}
+{"title": "Real-Time .NET Error Reporting With Exceptionless", "link": "https://code-maze.com/csharp-real-time-net-error-reporting-with-exceptionless/"}
+{"title": "Add a Cookie to an HttpClient Request/Response in ASP.NET Core", "link": "https://code-maze.com/aspnetcore-add-a-cookie-to-an-httpclient-request-response/"}
+{"title": "Change Default and per Request Timeout in HttpClient", "link": "https://code-maze.com/aspnetcore-change-default-and-per-request-timeout-in-httpclient/"}
+{"title": "How to Find the Latitude and Longitude of a Location in C#", "link": "https://code-maze.com/csharrp-find-latitude-and-longitude-of-a-location/"}
+{"title": "How to Update an Item in a List in C#", "link": "https://code-maze.com/csharp-update-list-item/"}
+{"title": "Differences Between .NET and C#", "link": "https://code-maze.com/differences-between-dotnet-and-csharp/"}
+{"title": "How to Show Query Parameters in Swagger in ASP.NET Core", "link": "https://code-maze.com/aspnetcore-show-query-parameters-in-swagger/"}
+{"title": "Using Kafka in an ASP.NET Core Web API", "link": "https://code-maze.com/aspnetcore-using-kafka-in-a-web-api/"}
+{"title": "HSTS Header Implementation in ASP.NET Core", "link": "https://code-maze.com/aspnetcore-hsts-header-implementation/"}
+{"title": "Represent the Relationship of Properties Using Property Mappings From AutoMapper", "link": "https://code-maze.com/csharp-getting-property-mappings-from-automapper/"}
+{"title": "How to Check the Total Number of Items Defined in an Enum", "link": "https://code-maze.com/csharp-check-the-total-number-of-items-in-an-enum/"}
+{"title": "Serialization and Deserialization with YamlDotNet", "link": "https://code-maze.com/csharp-serialization-and-deserialization-with-yamldotnet/"}
+{"title": "Generate Images in C# Using ImageSharp", "link": "https://code-maze.com/csharp-generate-images-using-imagesharp/"}
+{"title": "How to Create a Zip File in Memory In C#", "link": "https://code-maze.com/csharp-create-a-zip-file-in-memory/"}
+{"title": "How to Build a URL Shortener in .NET Applications", "link": "https://code-maze.com/aspnetcore-build-a-url-shortener/"}
+{"title": "Better Minimal APIs Endpoint Organization With Carter in ASP.NET Core", "link": "https://code-maze.com/aspnetcore-introduction-to-carter/"}
+{"title": "Baseline Styling in BenchmarkDotNet", "link": "https://code-maze.com/csharp-baseline-styling-in-benchmarkdotnet/"}
+{"title": "Fastest Way to Get a Dictionary Key by Value in C#", "link": "https://code-maze.com/csharp-fastest-way-to-get-a-dictionary-key-by-value/"}
+{"title": "Generate Images in C# Using ImageMagick", "link": "https://code-maze.com/csharp-generate-images-using-imagemagick/"}
+{"title": "How to Show the Generated SQL Query in EF Core", "link": "https://code-maze.com/efcore-show-generated-sql-query/"}
+{"title": "Built-In Rate Limiting in ASP.NET Core Web API", "link": "https://code-maze.com/aspnetcore-webapi-rate-limiting/"}
+{"title": "Code Maze Weekly #210", "link": "https://code-maze.com/code-maze-weekly-210/"}
+{"title": "The Difference Between Invariance, Contravariance and Covariance in Generics in C#", "link": "https://code-maze.com/csharp-the-difference-between-invariance-contravariance-and-covariance-in-generics/"}
+{"title": "How to Test gRPC Services in ASP.NET Core", "link": "https://code-maze.com/aspnetcore-test-grpc-services/"}
+{"title": "Scale Your Services With Service-Oriented Architecture in .NET", "link": "https://code-maze.com/csharp-service-oriented-architecture-pattern-in-net/"}
+{"title": "Different Ways to Create a Generic List of Anonymous Types in C#", "link": "https://code-maze.com/csharp-different-ways-to-create-a-generic-list-of-anonymous-types/"}
+{"title": "Introduction to Strawberry Shake and GraphQL in .NET", "link": "https://code-maze.com/dotnet-introduction-to-strawberry-shake-and-graphql/"}
+{"title": "Present a List of Files in a Directory With Directory Browsing in ASP.NET Core", "link": "https://code-maze.com/aspnetcore-directory-browsing/"}
+{"title": "How to Validate a GUID in C#", "link": "https://code-maze.com/csharp-how-to-validate-a-guid/"}
+{"title": "How to Use HttpOnly Cookie in .NET Core for Authentication and Refresh Token Actions", "link": "https://code-maze.com/how-to-use-httponly-cookie-in-net-core-for-authentication-and-refresh-token-actions/"}
+{"title": "Improve Performance With Source-Generated RegEx in .NET", "link": "https://code-maze.com/csharp-improve-performance-with-source-generated-regex/"}
+{"title": "Generate Sortable Unique IDs With the NewId Library in .NET", "link": "https://code-maze.com/dotnet-generate-sortable-unique-ids-with-the-newid-library/"}
+{"title": "The Fastest Way to Remove the Last Character of a String", "link": "https://code-maze.com/csharp-fastest-way-to-remove-the-last-character-of-a-string/"}
+{"title": "How to Get the HTML Content of a Web Page as a String in .NET", "link": "https://code-maze.com/dotnet-get-the-html-content-of-a-web-page-as-a-string/"}
+{"title": "How to Benchmark a Method\u2019s Performance Across Different .NET Versions", "link": "https://code-maze.com/csharp-benchmark-methods-performance-across-different-net-versions/"}
+{"title": "Using Memory For Efficient Memory Management in C#", "link": "https://code-maze.com/csharp-using-memory/"}
+{"title": "How to Resolve IOptions Instance Inside Program Class in C#", "link": "https://code-maze.com/csharp-how-to-resolve-ioptions-instance-inside-program-class/"}
+{"title": "Automatic Registration of Minimal API Endpoints in .NET", "link": "https://code-maze.com/aspnetcore-automatic-registration-of-minimal-api-endpoints/"}
+{"title": "Code Maze Weekly #207", "link": "https://code-maze.com/code-maze-weekly-207/"}
+{"title": "How to Use Entity Framework Core Migrations in Production", "link": "https://code-maze.com/efcore-how-to-use-entity-framework-core-migrations-in-production/"}
+{"title": "How to Convert IAsyncEnumerable to List", "link": "https://code-maze.com/csharp-convert-iasyncenumerable-to-list/"}
+{"title": "Execute the SELECT WHERE NOT EXIST SQL Query Using LINQ", "link": "https://code-maze.com/linq-execute-the-select-where-not-exist-sql-query-csharp/"}
+{"title": "Why Should We Avoid Using Await in a Loop in C#", "link": "https://code-maze.com/csharp-avoid-await-in-loop/"}
+{"title": "Fastest Way to Check if a List is in Order in C#", "link": "https://code-maze.com/csharp-fastest-way-to-check-if-a-list-is-in-order/"}
+{"title": "Code Maze Weekly #206", "link": "https://code-maze.com/code-maze-weekly-206/"}
+{"title": "How to Convert String to Char in C#", "link": "https://code-maze.com/csharp-how-to-convert-string-to-char/"}
+{"title": "Different Methods for Computing the Size of a Directory in C#", "link": "https://code-maze.com/csharp-different-methods-for-computing-the-size-of-a-directory/"}
+{"title": "Difference Between await and Task.Wait in C#", "link": "https://code-maze.com/csharp-difference-between-await-and-task-wait/"}
+{"title": "Comparing Performance of the switch and if-else Statements in C#", "link": "https://code-maze.com/csharp-comparing-performance-of-the-switch-and-if-else-statements/"}
+{"title": "Difference Between Abstraction and Encapsulation in C#", "link": "https://code-maze.com/csharp-difference-between-abstraction-and-encapsulation/"}
+{"title": "Read a Text File Without Specifying the Full Path in C#", "link": "https://code-maze.com/csharp-read-a-text-file-without-specifying-the-full-path/"}
+{"title": "Difference Between Build and Publish in Visual Studio", "link": "https://code-maze.com/visual-studio-difference-between-build-and-publish/"}
+{"title": "How to Use StringPool to Reduce String Allocations in C#", "link": "https://code-maze.com/csharp-use-stringpool-to-reduce-string-allocations/"}
+{"title": "Architecture Tests in .NET with NetArchTest.Rules", "link": "https://code-maze.com/csharp-architecture-tests-with-netarchtest-rules/"}
+{"title": "How to Fix CORS Error With AnyOrigin and AllowCredentials", "link": "https://code-maze.com/aspnetcore-how-to-fix-cors-error-with-anyorigin-and-allowcredentials/"}
+{"title": "Fastest Method to Check if a Date Is Less Than or Equal to Today\u2019s Date in C#", "link": "https://code-maze.com/csharp-fastest-method-to-check-if-a-date-is-less-than-or-equal-to-todays-date/"}
+{"title": "Fastest Way to Generate a Random Boolean in C#", "link": "https://code-maze.com/csharp-fastest-way-to-generate-a-random-boolean/"}
+{"title": "How to Create an Outer Join in LINQ \u2013 (Left and Right)", "link": "https://code-maze.com/csharp-outer-join-linq/"}
+{"title": "How to Add Unique Constraints to a Property in EF Core Code-First", "link": "https://code-maze.com/efcore-add-unique-constraints-to-a-property-code-first/"}
+{"title": "How to Inject a DbContext Instance Into an IHostedService", "link": "https://code-maze.com/efcore-inject-dbcontext-instance-into-ihostedservice/"}
+{"title": "Single and Split Queries in Entity Framework Core", "link": "https://code-maze.com/efcore-single-and-split-queries/"}
+{"title": "Creating Conditional Required Attributes for Validation in .NET Web API", "link": "https://code-maze.com/aspnetcore-conditional-required-attributes/"}
+{"title": "New Features in C# 12", "link": "https://code-maze.com/csharp-new-features-in-version-12/"}
+{"title": "Different Techniques to Convert a Number Between Hexadecimal and Decimal in C#", "link": "https://code-maze.com/csharp-convert-a-number-between-hexadecimal-and-decimal/"}
+{"title": "Clean Architecture in .NET", "link": "https://code-maze.com/dotnet-clean-architecture/"}
+{"title": "How to Log a Class and Method Names Using Serilog", "link": "https://code-maze.com/aspnetcore-how-to-log-a-class-and-method-names-using-serilog/"}
+{"title": "Using Fluxor for State Management in Blazor", "link": "https://code-maze.com/fluxor-for-state-management-in-blazor/"}
+{"title": "Different Ways to Validate an Uploaded File in ASP.Net Core", "link": "https://code-maze.com/aspnetcore-validate-uploaded-file/"}
+{"title": "How to Check if an Object Is a Number in C#", "link": "https://code-maze.com/csharp-how-to-check-if-an-object-is-a-number/"}
+{"title": "How to Overwrite DateTime.Now During Testing in .NET", "link": "https://code-maze.com/dotnet-how-to-overwrite-datetime-now-during-testing/"}
+{"title": "What Is the Difference Between Properties and Fields in C#", "link": "https://code-maze.com/csharp-difference-between-properties-and-fields/"}
+{"title": "Code Maze Weekly #201", "link": "https://code-maze.com/code-maze-weekly-201/"}
+{"title": "Different Ways to Run Background Tasks in ASP.NET Core", "link": "https://code-maze.com/aspnetcore-different-ways-to-run-background-tasks/"}
+{"title": "Monolith and Distributed Monolith Architectural Patterns in C#", "link": "https://code-maze.com/csharp-monolith-and-distributed-monolith-architectural-patterns/"}
+{"title": "How to Get the Number of Files in a Folder With C#", "link": "https://code-maze.com/csharp-get-the-number-of-files-in-a-folder/"}
+{"title": "How To Use ArraySegment in C#", "link": "https://code-maze.com/csharp-arraysegment/"}
+{"title": "How to Properly Create Message Templates for Logging in C#", "link": "https://code-maze.com/csharp-logging-message-templates/"}
+{"title": "Different Ways to Get the First Record in Each Group With LINQ", "link": "https://code-maze.com/csharp-different-ways-to-get-the-first-record-in-each-group-with-linq/"}
+{"title": "How to Select Multiple Records Based on a List of IDs Using LINQ", "link": "https://code-maze.com/csharp-how-to-select-multiple-records-using-linq/"}
+{"title": "How to Read XML Documents in C#", "link": "https://code-maze.com/csharp-reading-xml-documents/"}
+{"title": "How to Create XML Files in C#", "link": "https://code-maze.com/csharp-how-to-create-xml-documents/"}
+{"title": "Code Maze Weekly #199", "link": "https://code-maze.com/code-maze-weekly-199/"}
+{"title": "How to Check if Items of a List Exist in Another List in C#", "link": "https://code-maze.com/csharp-check-if-items-of-a-list-exist-in-another-list/"}
+{"title": "How to Calculate the Number of Days Between Two Dates in C#", "link": "https://code-maze.com/csharp-calculate-the-number-of-days-between-two-dates/"}
+{"title": "Add Custom Claims to Access Token in Duende", "link": "https://code-maze.com/add-custom-claims-to-access-token-in-duende/"}
+{"title": "How to Revert a Migration in EF Core", "link": "https://code-maze.com/efcore-how-to-revert-a-migration/"}
+{"title": "How to Ensure a String Is Valid JSON in C#", "link": "https://code-maze.com/csharp-how-to-ensure-a-string-is-valid-json/"}
+{"title": "Differences Between a Virtual and an Abstract Method in C#", "link": "https://code-maze.com/csharp-differences-between-a-virtual-method-and-an-abstract-method/"}
+{"title": "Fastest Way to Convert a JObject to a Dictionary in C#", "link": "https://code-maze.com/csharp-convert-a-jobject-to-a-dictionary/"}
+{"title": "How to Maximize the Browser Window With Selenium in C#", "link": "https://code-maze.com/csharp-selenium-maximize-browser/"}
+{"title": "How to Truncate a String in .NET", "link": "https://code-maze.com/csharp-how-to-truncate-a-string/"}
+{"title": "How to Escape Curly Brackets and Special Characters in C#", "link": "https://code-maze.com/chsarp-how-to-escape-curly-brackets-and-special-characters/"}
+{"title": "Plugin Architecture Pattern in C#", "link": "https://code-maze.com/csharp-plugin-architecture-pattern/"}
+{"title": "How to Save a List to a Text File in C#", "link": "https://code-maze.com/csharp-how-to-save-a-list-to-a-text-file/"}
+{"title": "Difference Between Select and SelectMany Methods in LINQ", "link": "https://code-maze.com/csharp-difference-between-select-and-selectmany-methods-in-linq/"}
+{"title": "How to Get a Value of a Property By Using its Name in C#", "link": "https://code-maze.com/csharp-get-a-value-of-a-property-by-using-its-name/"}
+{"title": "Using MariaDB With ASP.NET Core Web API", "link": "https://code-maze.com/aspnetcore-using-mariadb-with-web-api/"}
+{"title": "How To Remove HTML Tags From a String in C#", "link": "https://code-maze.com/csharp-remove-html-tags-from-a-string/"}
+{"title": "How to Compare Two Lists Through One Property in C#", "link": "https://code-maze.com/csharp-compare-two-lists-through-one-property/"}
+{"title": "How to Create a Temp File in the Temp Folder in C#", "link": "https://code-maze.com/csharp-how-to-create-a-temp-file-in-temp-folder/"}
+{"title": "How to Escape the Backslash Character in C#", "link": "https://code-maze.com/csharp-escape-the-backslash-character/"}
+{"title": "How to Use IExceptionHandler to Handle Exceptions in .NET", "link": "https://code-maze.com/dotnet-use-iexceptionhandler-to-handle-exceptions/"}
+{"title": "Controlling Precision of Decimal Numbers in C#", "link": "https://code-maze.com/csharp-controlling-precision-of-decimal-numbers/"}
+{"title": "Converting String to Byte Array in C#", "link": "https://code-maze.com/csharp-converting-string-to-byte-array/"}
+{"title": "Default Values for Lambda Expressions in C#", "link": "https://code-maze.com/csharp-default-values-for-lambda-expressions/"}
+{"title": "Join MongoDB Collections With .NET and Aggregation Pipeline", "link": "https://code-maze.com/csharp-join-mongodb-collections-with-aggregation-pipeline/"}
+{"title": "Implement Custom Authorization Policy Provider in ASP.NET Core", "link": "https://code-maze.com/aspnetcore-implement-custom-authorization-policy-provider-in-asp-net-core/"}
+{"title": "How to Get an Access Token from HttpContext in ASP.NET Core", "link": "https://code-maze.com/aspnetcore-how-to-get-an-access-token-from-httpcontext/"}
+{"title": "How to Decode JWT Tokens in .NET", "link": "https://code-maze.com/how-to-decode-jwt-tokens-in-net/"}
+{"title": "How to Retrieve JSON Property Names in C#", "link": "https://code-maze.com/csharp-retrieve-json-property-names/"}
+{"title": "Select a Dropdown Option Using Selenium WebDriver in C#", "link": "https://code-maze.com/csharp-select-a-dropdown-option-using-selenium-webdriver/"}
+{"title": "Tuple Aliases in C#", "link": "https://code-maze.com/csharp-tuple-aliases/"}
+{"title": "How to Register Multiple Implementations of the Same Interface in ASP.NET Core", "link": "https://code-maze.com/aspnetcore-register-multiple-interface-implementations/"}
+{"title": "File Access Modifier in C#", "link": "https://code-maze.com/csharp-file-access-modifier/"}
+{"title": "Create Better Looking Console Applications With Spectre.Console", "link": "https://code-maze.com/csharp-create-better-looking-console-applications-with-spectre-console/"}
+{"title": "Code Maze Weekly #195", "link": "https://code-maze.com/code-maze-weekly-195/"}
+{"title": "How To Read the Request Body in ASP.NET Core Web API", "link": "https://code-maze.com/aspnetcore-webapi-read-request-body/"}
+{"title": "How to Use the Automated Machine Learning API With ML.NET", "link": "https://code-maze.com/csharp-automated-machine-learning-api-with-ml-net/"}
+{"title": "The Differences Between Quartz.NET and Hangfire", "link": "https://code-maze.com/chsarp-the-differences-between-quartz-net-and-hangfire/"}
+{"title": "Using Static Anonymous Functions in C#", "link": "https://code-maze.com/csharp-static-anonymous-functions/"}
+{"title": "How to Use Interceptors in C# 12", "link": "https://code-maze.com/how-to-use-interceptors-in-c-12/"}
+{"title": "Blazor WebAssembly Ahead of Time Compilation", "link": "https://code-maze.com/blazor-webassembly-ahead-of-time-compilation/"}
+{"title": "How to Determine the Operating System in .NET Core", "link": "https://code-maze.com/csharp-how-to-determine-the-operating-system/"}
+{"title": "How to Check if a File Is in Use With C#", "link": "https://code-maze.com/csharp-how-to-check-if-a-file-is-in-use/"}
+{"title": "Introduction to .NET and C# \u2013 Differences, Structure, SDK, Runtime, Compilation", "link": "https://code-maze.com/short-introduction-to-net-and-csharp/"}
+{"title": "Standard and Custom Numeric Format Strings in .NET", "link": "https://code-maze.com/csharp-standard-and-custom-numeric-format-strings/"}
+{"title": "Hexagonal Architectural Pattern in C#", "link": "https://code-maze.com/csharp-hexagonal-architectural-pattern/"}
+{"title": "How to Use Request Timeouts Middleware in ASP.NET Core", "link": "https://code-maze.com/aspnetcore-request-timeouts-middleware/"}
+{"title": "REST vs WebSockets in C#", "link": "https://code-maze.com/csharp-rest-vs-websockets/"}
+{"title": "ConcurrentStack in C#", "link": "https://code-maze.com/csharp-concurrentstack/"}
+{"title": "How to Get a Database Row as JSON Using Dapper", "link": "https://code-maze.com/database-row-as-json-using-dapper/"}
+{"title": "Pipes and Filters Architectural Pattern in C#", "link": "https://code-maze.com/csharp-pipes-and-filters-architectural-pattern/"}
+{"title": "How to Force Run .NET Application as Administrator", "link": "https://code-maze.com/csharp-how-to-force-run-net-application-as-administrator/"}
+{"title": "Using Keyed Services to Resolve Dependencies in .NET", "link": "https://code-maze.com/csharp-using-keyed-services-to-resolve-dependencies/"}
+{"title": "Code Maze Weekly #193", "link": "https://code-maze.com/code-maze-weekly-193/"}
+{"title": "How to Read a String From a .resx (Resource) File in C#", "link": "https://code-maze.com/csharp-string-resource-file/"}
+{"title": "Understanding the Unit of Work Pattern in C#", "link": "https://code-maze.com/csharp-unit-of-work-pattern/"}
+{"title": "Read and Write Windows Registry in C#", "link": "https://code-maze.com/csharp-read-and-write-windows-registry/"}
+{"title": "Dynamically Adding Rows on a Form in Razor Pages", "link": "https://code-maze.com/dynamically-adding-rows-form-razor-pages/"}
+{"title": "How and When to Use TPC Inheritance Mapping in EF Core", "link": "https://code-maze.com/efcore-how-and-when-to-use-tpc-inheritance-mapping/"}
+{"title": "How to Perform Case-Insensitive Substring Search in C#", "link": "https://code-maze.com/substring-in-string-case-insensitive-csharp/"}
+{"title": "Converting a Hexadecimal String to a Byte Array in C#", "link": "https://code-maze.com/csharp-converting-a-hexadecimal-string-to-a-byte-array/"}
+{"title": "Database First Development With EF Core Power Tools", "link": "https://code-maze.com/efcore-database-first-development-with-ef-core-power-tools/"}
+{"title": "Using ML.NET CLI To Automate Model Training", "link": "https://code-maze.com/csharp-using-ml-net-cli-to-automate-model-training/"}
+{"title": "Code Maze Weekly #189", "link": "https://code-maze.com/code-maze-weekly-189/"}
+{"title": "How to Implement Audit Trail in ASP.NET Core Web API", "link": "https://code-maze.com/aspnetcore-audit-trail/"}
+{"title": "Refactoring Dispensables in C#", "link": "https://code-maze.com/refactoring-dispensables-and-code-smells-in-csharp/"}
+{"title": "Memory Optimization With ArrayPool in C#", "link": "https://code-maze.com/csharp-arraypool-memory-optimization/"}
+{"title": "ConcurrentQueue in C#", "link": "https://code-maze.com/csharp-concurrentqueue/"}
+{"title": "Global Exception Handling for MediatR Requests", "link": "https://code-maze.com/csharp-global-exception-handling-for-mediatr-requests/"}
+{"title": "22 C# Best Practices", "link": "https://code-maze.com/csharp-22-best-practices/"}
+{"title": "Using a Discard Variable in C#", "link": "https://code-maze.com/csharp-how-to-use-discard-variable/"}
+{"title": "When to Use ReaderWriterLockSlim Over lock in C#", "link": "https://code-maze.com/csharp-when-to-use-readerwriterlockslim-over-lock/"}
+{"title": "Synchronization Mechanisms \u2013 Volatile vs Interlocked vs lock in C#", "link": "https://code-maze.com/csharp-volatile-interlocked-lock/"}
+{"title": "How to Use onchange Event with Select DropDown in Blazor", "link": "https://code-maze.com/blazor-how-to-use-onchange-event-with-select-dropdown/"}
+{"title": "Testing Using Testcontainers for .NET and Docker", "link": "https://code-maze.com/csharp-testing-using-testcontainers-for-net-and-docker/"}
+{"title": "Different Log Levels in Serilog", "link": "https://code-maze.com/csharp-different-log-levels-in-serilog/"}
+{"title": "Different Ways to Overwrite a File in C#", "link": "https://code-maze.com/different-ways-to-overwrite-file-in-csharp/"}
+{"title": "How to Use Moq to Return a Value That Was Passed Into a Method?", "link": "https://code-maze.com/dotnet-use-moq-return-value-that-was-passed-into-a-method/"}
+{"title": "Differences Between Any and Exists Methods in C#", "link": "https://code-maze.com/csharp-differences-between-any-and-exists-methods/"}
+{"title": "DateTimeOffset vs DateTime in C#", "link": "https://code-maze.com/csharp-datetimeoffset-vs-datetime/"}
+{"title": "Code Maze Weekly #185", "link": "https://code-maze.com/code-maze-weekly-185/"}
+{"title": "How to Use Basic Authentication With HttpClient?", "link": "https://code-maze.com/aspnetcore-basic-authentication-with-httpclient/"}
+{"title": "Optimistic Concurrency in ASP.NET Core Web API", "link": "https://code-maze.com/aspnetcore-webapi-optimistic-concurrency/"}
+{"title": "How to Return HTTP 500 From ASP.NET Core Web API", "link": "https://code-maze.com/aspnetcore-webapi-return-http-status-code-500/"}
+{"title": "How to Mark Methods as Deprecated in C#", "link": "https://code-maze.com/csharp-mark-methods-as-depricated/"}
+{"title": "How to Generate a Stream From a String?", "link": "https://code-maze.com/dotnet-generate-stream-from-string/"}
+{"title": "Differences Between Equality Operator (==) And Equals Method In C#", "link": "https://code-maze.com/csharp-equality-operator-and-equals-method/"}
+{"title": "Dynamically Switching DbContext at Runtime Using Entity Framework Core", "link": "https://code-maze.com/efcore-dynamically-switching-dbcontext-at-runtime/"}
+{"title": "Targeting Multiple Frameworks in a .NET Project", "link": "https://code-maze.com/dotnet-targeting-multiple-frameworks/"}
+{"title": "Differences Between Const and Readonly in C#", "link": "https://code-maze.com/csharp-differences-between-const-and-readonly/"}
+{"title": "Efficiently Converting Strings With UTF-8 String Literals in C#", "link": "https://code-maze.com/csharp-efficiently-converting-strings-with-utf-8-string-literals/"}
+{"title": "Prevent SQL Injection With EF Core, Dapper, and ADO.NET", "link": "https://code-maze.com/prevent-sql-injection-with-ef-core-dapper-and-ado-net/"}
+{"title": "How to Determine .NET Version Programatically", "link": "https://code-maze.com/csharp-dotnet-version-programatically/"}
+{"title": "Primary Constructors for Classes and Structs in C#", "link": "https://code-maze.com/csharp-primary-constructors-for-classes-and-structs/"}
+{"title": "ModuleInitializer Attribute in C#", "link": "https://code-maze.com/csharp-moduleinitializer-attribute/"}
+{"title": "Value vs Reference Types in C# \u2013 In Depth Guide", "link": "https://code-maze.com/csharp-value-vs-reference-types/"}
+{"title": "How to Merge Dictionaries in C#?", "link": "https://code-maze.com/csharp-how-to-merge-dictionaries/"}
+{"title": "How to Access Configuration During Application\u2019s Startup in .NET", "link": "https://code-maze.com/dotnet-access-configuration-during-applications-startup/"}
+{"title": "Sending Email With FluentEmail in .NET", "link": "https://code-maze.com/dotnet-sending-email-with-fluentemail/"}
+{"title": "Saga Pattern With NServiceBus in C#", "link": "https://code-maze.com/csharp-saga-pattern-with-nservicebus/"}
+{"title": "Refactoring Couplers in C#", "link": "https://code-maze.com/csharp-refactoring-couplers/"}
+{"title": "Extending IdentityUser With Custom Properties in ASP.NET Core", "link": "https://code-maze.com/aspdotnet-extending-identityuser/"}
+{"title": "What Is Model Builder and How to Use It in ML.NET", "link": "https://code-maze.com/csharp-model-builder-ml-net/"}
+{"title": "Effective Mocking With NSubstitute in .NET", "link": "https://code-maze.com/csharp-effective-mocking-with-nsubstitute/"}
+{"title": "Adding a User Login to a .NET App With Auth0", "link": "https://code-maze.com/dotnet-adding-a-user-login-with-auth0/"}
+{"title": "XML Deserialization in C#", "link": "https://code-maze.com/csharp-xml-deserialization/"}
+{"title": "Should We Use Records or Classes or Structs in C#", "link": "https://code-maze.com/csharp-should-we-use-records-classes-or-structs/"}
+{"title": "How to Configure Rolling File Logging With Serilog", "link": "https://code-maze.com/csharp-configure-rolling-file-logging-with-serilog/"}
+{"title": "Techniques for Sorting a List in C#", "link": "https://code-maze.com/csharp-techniques-for-sorting-list/"}
+{"title": "Source Generators in C#", "link": "https://code-maze.com/csharp-source-generators/"}
+{"title": "What is Locking and How to Use a Locking Mechanism in C#", "link": "https://code-maze.com/csharp-locking-mechanism/"}
+{"title": "How to Split an Entity Into Multiple Tables in EF Core", "link": "https://code-maze.com/efcore-how-to-split-an-entity-into-multiple-tables/"}
+{"title": "Introduction to PDF Manipulation With iText (Formerly iTextSharp)", "link": "https://code-maze.com/csharp-pdf-manipulation-with-itext/"}
+{"title": "How to Solve Unable to Resolve Service for a Type", "link": "https://code-maze.com/dotnet-how-to-solve-unable-to-resolve-service-for-a-type/"}
+{"title": "Test Data Generation With AutoFixture in .NET", "link": "https://code-maze.com/csharp-test-data-generation-with-autofixture/"}
+{"title": "DateTime Calendars in C#", "link": "https://code-maze.com/dotnet-datetime-calendars/"}
+{"title": "Introduction to Scrutor Library in .NET", "link": "https://code-maze.com/dotnet-dependency-injection-with-scrutor/"}
+{"title": "How to Use Factory Pattern With Dependency Injection in .NET", "link": "https://code-maze.com/dotnet-factory-pattern-dependency-injection/"}
+{"title": "How To Parse String to DateTime in C#", "link": "https://code-maze.com/csharp-convert-string-to-datetime/"}
+{"title": "Log4net Appenders Introduction With C# Examples", "link": "https://code-maze.com/csharp-log4net-appenders-introduction/"}
+{"title": "ArrayList in C#", "link": "https://code-maze.com/csharp-arraylist/"}
+{"title": "How to Get Class Name as String in C#", "link": "https://code-maze.com/csharp-get-class-name-as-string/"}
+{"title": "Should We Use Records With EF Core as Model Classes?", "link": "https://code-maze.com/dotnet-efcore-records-as-model-classes/"}
+{"title": "Code Maze Weekly #178", "link": "https://code-maze.com/code-maze-weekly-178/"}
+{"title": "How to Add a Global Route Prefix in ASP.NET Core", "link": "https://code-maze.com/aspnetcore-add-global-route-prefix/"}
+{"title": "How To Set Up SSL Certificate In Visual Studio and .NET CLI", "link": "https://code-maze.com/enable-ssl-certificate-visual-studio-dotnet-cli/"}
+{"title": "Value Objects in C#", "link": "https://code-maze.com/csharp-value-objects/"}
+{"title": "Managed vs Unmanaged Code (Garbage Collection) in C#", "link": "https://code-maze.com/csharp-managed-vs-unmanaged-code-garbage-collection/"}
+{"title": "Expression Trees in C#", "link": "https://code-maze.com/csharp-expression-trees/"}

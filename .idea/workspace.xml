@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20a450b8-95d6-45c9-903d-6bfc389d95f6" name="Changes" comment="Save title and link data to a JSONL file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="20a450b8-95d6-45c9-903d-6bfc389d95f6" name="Changes" comment="Navigate to the next page using JavaScript click">
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -148,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723899137346</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Navigate to the next page using JavaScript click">
+      <option name="closed" value="true" />
+      <created>1723977418153</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1723977418153</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,6 +177,7 @@
     <MESSAGE value="Update try block for navigation to Code Maze latest posts" />
     <MESSAGE value="Extract links from titles" />
     <MESSAGE value="Save title and link data to a JSONL file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Save title and link data to a JSONL file" />
+    <MESSAGE value="Navigate to the next page using JavaScript click" />
+    <option name="LAST_COMMIT_MESSAGE" value="Navigate to the next page using JavaScript click" />
   </component>
 </project>

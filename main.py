@@ -42,16 +42,6 @@ try:
                     print(f"Error processing title: {e}")
 
 
-                # click the <a> tag with the link specified in the image using JavaScript to go to the next page
-                try:
-                    next_link = driver.find_element(By.CSS_SELECTOR, "div.nav-link.nav-link-prev > a")
-                    driver.execute_script("arguments[0].click();", next_link)
-                    print("Navigating to the next page")
-                    time.sleep(2)
-                except Exception as e:
-                    print(f"Error navigating to the next page: {e}")
-                    break
-
 finally:
     # Close the browser after a short delay to see the result
     time.sleep(5)
