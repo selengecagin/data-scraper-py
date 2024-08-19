@@ -1,99 +1,66 @@
-import json
-import time
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.service import Service as ChromeService
-from webdriver_manager.chrome import ChromeDriverManager
-from google.oauth2.service_account import Credentials
-from googleapiclient.discovery import build
-from googleapiclient.errors import HttpError
+import streamlit as st
+from openai import OpenAI
+from dotenv import load_dotenv
+import os
 
-# Google Sheets setup
-SCOPES = ['https://www.googleapis.com/auth/spreadsheets', 'https://www.googleapis.com/auth/drive']
-SERVICE_ACCOUNT_FILE = '/Users/selengecagin/Downloads/article-scraper-432919-837d8630e4b7.json'
+# Load environment variables
+load_dotenv()
 
-def create_sheet(service, title):
-    spreadsheet = {
-        'properties': {
-            'title': title
-        }
-    }
-    spreadsheet = service.spreadsheets().create(body=spreadsheet, fields='spreadsheetId').execute()
-    return spreadsheet.get('spreadsheetId')
+# Initialize OpenAI client
+client = OpenAI()
 
-def update_sheet(service, spreadsheet_id, data):
-    body = {
-        'values': data
-    }
-    service.spreadsheets().values().update(
-        spreadsheetId=spreadsheet_id, range='A1',
-        valueInputOption='RAW', body=body).execute()
+# Streamlit app
+st.title("Lipstick Stylist Assistant")
 
-def share_sheet(drive_service, spreadsheet_id, email_addresses):
-    for email in email_addresses:
-        permission = {
-            'type': 'user',
-            'role': 'writer',
-            'emailAddress': email
-        }
-        drive_service.permissions().create(
-            fileId=spreadsheet_id,
-            body=permission,
-            fields='id',
-            sendNotificationEmail=True
-        ).execute()
-    print(f"Sheet shared with: {', '.join(email_addresses)}")
+skin_tone = "Wheatish"
+occasion = "Party"
 
-# Setup the WebDriver
-driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
+# Initialize chat history
+if "messages" not in st.session_state:
+    st.session_state.messages = [
+        {"role": "system",
+         "content": "You are a helpful lipstick stylist and assistant. You know the best about the latest trends and can help customers find the perfect shade. Use your imagination to create the top 5 colourful choices, Keep it short and concise. Give the responses in a list format in a **MARKDOWN** format! Do not include anything else in your responses. Create the response for following specifications:" + f"Skin Tone:{skin_tone}\n\nOccasion:{occasion}"}
+    ]
 
+# Display chat messages
+for message in st.session_state.messages[1:]:  # Skip the system message
+    with st.chat_message(message["role"]):
+        st.markdown(message["content"])
+
+# User input
+user_input = st.chat_input("Ask about lipstick trends or shades...")
+
+if user_input:
+    # Add user message to chat history
+    st.session_state.messages.append({"role": "user", "content": user_input})
+
+    # Display user message
+    with st.chat_message("user"):
+        st.markdown(user_input)
+
+    # Get AI response
+    with st.chat_message("assistant"):
+        message_placeholder = st.empty()
+
+        completion = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=st.session_state.messages,
+        )
+
+        response = completion.choices[0].message.content
+        message_placeholder.markdown(response)
+
+    # Add AI response to chat history
+    st.session_state.messages.append({"role": "assistant", "content": response})
+
+    # Write response to file
+    with open('response.md', 'w') as f:
+        f.write(response)
+
+# Add a section for displaying the contents of response.md
+st.subheader("Latest Response")
 try:
-    # Google Sheets Authentication
-    creds = Credentials.from_service_account_file(SERVICE_ACCOUNT_FILE, scopes=SCOPES)
-    sheets_service = build('sheets', 'v4', credentials=creds)
-    drive_service = build('drive', 'v3', credentials=creds)
-
-    # Create a new Google Sheet
-    sheet_title = f"Code Maze Articles - {time.strftime('%Y-%m-%d %H:%M:%S')}"
-    spreadsheet_id = create_sheet(sheets_service, sheet_title)
-    print(f"Created new Google Sheet with ID: {spreadsheet_id}")
-
-    # Share the sheet with specified email addresses
-    email_addresses = ['selengecagin@gmail.com']  # Add your desired email addresses here
-    share_sheet(drive_service, spreadsheet_id, email_addresses)
-
-    # Prepare data for Google Sheets
-    sheet_data = [['Title', 'Link']]  # Header row
-
-    for page in range(3, 6):  # Loop through the first 20 pages
-        url = f"https://code-maze.com/latest-posts-on-code-maze/page/{page}/"
-        driver.get(url)
-        print(f"Navigating to: {url}")
-        time.sleep(2)
-
-        titles = driver.find_elements(By.CSS_SELECTOR, "h2.entry-title")
-
-        for title in titles:
-            try:
-                title_text = title.find_element(By.CSS_SELECTOR, "a").text
-                title_link = title.find_element(By.CSS_SELECTOR, "a").get_attribute("href")
-                print(f"Title: {title_text}")
-                print(f"Link: {title_link}")
-
-                # Add data to sheet_data
-                sheet_data.append([title_text, title_link])
-
-                time.sleep(2)
-            except Exception as e:
-                print(f"Error processing title: {e}")
-
-    # Update Google Sheet with all data
-    update_sheet(sheets_service, spreadsheet_id, sheet_data)
-    print(f"Updated Google Sheet with {len(sheet_data) - 1} articles")
-
-except HttpError as error:
-    print(f"An error occurred: {error}")
-
-finally:
-    time.sleep(5)
-    driver.quit()
+    with open('response.md', 'r') as f:
+        st.markdown(f.read())
+except FileNotFoundError:
+    st.write("No response generated yet.")
