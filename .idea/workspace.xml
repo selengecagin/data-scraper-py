@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20a450b8-95d6-45c9-903d-6bfc389d95f6" name="Changes" comment="Install Google authentication and API client libraries">
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="20a450b8-95d6-45c9-903d-6bfc389d95f6" name="Changes" comment="Add Streamlit interface with OpenAI integration">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723894846524</updated>
-      <workItem from="1724070719902" duration="2023000" />
+      <workItem from="1724070719902" duration="2944000" />
     </task>
     <task id="LOCAL-00001" summary="Add Selenium script to perform a Google search">
       <option name="closed" value="true" />
@@ -213,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724070771200</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Add Streamlit interface with OpenAI integration">
+      <option name="closed" value="true" />
+      <created>1724091832111</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1724091832111</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +253,7 @@
     <MESSAGE value="Append title and link to all_articles list" />
     <MESSAGE value="Update Google Sheets and Drive API scopes and service account file path" />
     <MESSAGE value="Install Google authentication and API client libraries" />
-    <option name="LAST_COMMIT_MESSAGE" value="Install Google authentication and API client libraries" />
+    <MESSAGE value="Add Streamlit interface with OpenAI integration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Streamlit interface with OpenAI integration" />
   </component>
 </project>
