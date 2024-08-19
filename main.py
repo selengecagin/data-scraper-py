@@ -59,7 +59,7 @@ try:
     print(f"Created new Google Sheet with ID: {spreadsheet_id}")
 
     # Share the sheet with specified email addresses
-    email_addresses = ['alper.tunga@blazor.design', 'iclal.cetin.s.e@gmail.com', "doga.cetinkaya@yahoo.de", "seval.zeynep@gmail.com", "bzsezer1@gmail.com"]  # Add your desired email addresses here
+    email_addresses = ['selengecagin@gmail.com']  # Add your desired email addresses here
     share_sheet(drive_service, spreadsheet_id, email_addresses)
 
     # Prepare data for Google Sheets
